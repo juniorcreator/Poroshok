@@ -1,0 +1,33 @@
+.header {
+  margin-bottom: 125px;
+  .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__logo {
+    margin-right: 52px;
+  }
+  &__logo-title {
+    color: #ffffff;
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    span {
+      font-family: 'Gilroy-Light';
+    }
+  }
+  &__logo-address {
+    color: #6568C7;
+    font-family: 'Gilroy-Light';
+    font-size: 20px;
+  }
+  &__nav {
+    margin-right: 15px;
+  }
+  &__btn {
+    margin-left: auto;
+  }
+}

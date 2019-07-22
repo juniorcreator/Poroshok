@@ -1,0 +1,27 @@
+.home-banner {
+  &__title {
+    font-size: 55px;
+    font-family: 'Gilroy-ExtraBold';
+    color: rgba(255,255,255,.8);
+    max-width: 573px;
+    margin-bottom: 22px;
+    span {
+      display: block;
+      font-family: 'Akrobat-Light';
+      font-size: 52px;
+      margin-top: 10px;
+      color:rgba(255,255,255,.9);
+    }
+  }
+  &__text {
+    margin-bottom: 24px;
+    color: rgba(255,255,255, .9);
+    font-family: 'Akrobat-Regular';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .btn {
+
+  }
+}
